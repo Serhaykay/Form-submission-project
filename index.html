@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Form project</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <!-- Sidebar start -->
+   <div class="container">
+    <div class="sidebar">
+      <div class="steps">
+        <button type="button" id="active">1</button>
+        <div>
+          <p>STEP 1</p>
+          <h2>YOUR INFO</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <button type="button" >2</button>
+        <div>
+          <p>STEP 2</p>
+          <h2>SELECT PLAN</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <button type="button" >3</button>
+        <div>
+          <p>STEP 3</p>
+          <h2>ADD-ONS</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <button type="button" >4</button>
+        <div>
+          <p>STEP 4</p>
+          <h2>SUMMARY</h2>
+        </div>
+      </div>
+    </div>
+    <div class="main-info">
+      <h1>Personal info</h1>
+      <p>Please provide your name, email address, and phone number.</p>
+
+      <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password" required>Phone Number</label>
+            <input type="tel" id="tel" name="tel" required>
+          </div>  
+      </form>  
+      <a href="plan.html"><button id="next" type="submit">Next Step</button></a>
+   </div>
+
+  
+</body>
+</html>
